@@ -1,185 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission form</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-   
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>MEGHNAD SAHA INSTITUTE OF TECHNOLOGY</title>
-    <link rel="icon" type="image/x-icon" href="../images/1.png">
-  </head>
-
-  <body style="background-color: rgb(226, 222, 170);">
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-       Admissions are open now!!
-             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-             <br>
-    </div>
-    
-  
-
-   <h3 style="color: maroon;
-   font-style: italic;
-   text-align: center;">MEGHNAD SAHA INSTITUTE OF TECHNOLOGY</h3>
-   <hr>
-   <h6 style="text-align: center;
-   color: maroon;">Approved by AICTE, Govt. of India and affiliated to Maulana Abul Kalam Azad University of Technology, West Bengal</h6>
-   <!-- <div class="container"> -->
-    <!-- <div class="container"> -->
-      <!-- <header class="container d-flex align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom bg-dark">
-        <div class="col-md-3 mb-2 mb-md-0">
-          <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-            <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-          </a>
+</head>
+<body class="container"style="background-color: beige;">
+    <h3 style="color: maroon;">Online admission form available</h3>
+    <h6 style="font-style: italic ;color: maroon;">If you like to apply to our college , please fill in this College Admission Form and we willcontact you as soon as possible.</h6>
+    <hr>
+    <br>
+    <h6>Program Applied for:</h6>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          BTECH
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          BCA
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        <label class="form-check-label" for="flexRadioDefault1">
+          BBA
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+          MCA
+        </label>
+      </div>
+      <br>
+      <h6>Full Nme Of Applicant:</h6>
+    <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
         </div>
-  
-        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 " >
-          <li><a class="nav-link px-2 " href="form.html">Admission</a></li>
-          <li><a  class="nav-link px-2" href="dept.html">Departments</a></li>
-          <li><a  class="nav-link px-2" href="facilities.html">Facilities</a></li>
-          <li><a class="nav-link px-2" href="contact.html">Contact Us</a></li>
-          <li><a  class="nav-link px-2" href="about.html">About</a></li>
-        </ul>
-  
-        <div class="col-md-3 text-end">
-          <button type="button" class="btn btn-outline-primary me-2" ><a href="login.html"></a>Log in</button>
-          <button type="button" class="btn btn-primary"><a href="signup.html"></a>Sign in</button>
-        </div>
-      </header> -->
-      
-    <!-- </div> -->
-
-    <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
       </div>
-    </nav>
-
-
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="../images/2.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Success is where preparation and opportunity meet.</p>
-          </div>
+      <br>
+      <h6>Parent/Guardian's Name:</h6>
+      <div class="row g-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
         </div>
-        <div class="carousel-item">
-          <img src="../images/3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Prestigious moment of MSIT</h5>
-            <p>23 Years of Academic Excellence</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../images/6.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
-          </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-         <br>
-         <div class="row">
-          <div class="col-lg-4">
-            
+      <br>
+      <h6>Parent/Guardian's Occupation:</h6>
+      <input class="form-control" type="text" placeholder="" aria-label="default input example">
+      <br>
+      <h6>Date Of Birth:</h6>
+      <input class="form-control" type="text" placeholder="MM/DD/YYYY" aria-label="default input example">
+      <br>
+      <h6>Permanent Residential Address:</h6>
+      <input class="form-control" type="text" placeholder="Street Address" aria-label="default input example">
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>West Bengal</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Pin code</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <br>
+      <h6>Applicant's Phone Number:</h6>
+      <input class="form-control" type="text" placeholder="### ### ###" aria-label="default input example">
+      <br>
+      <h6>Parent/Guardian's Phone Numder:</h6>
+      <input class="form-control" type="text" placeholder="### ### ###" aria-label="default input example">
+      <br>
+      <h6>Academic Qualifications:</h6>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2"></label>
+      </div>
+      <br>
+      <h6>Applicant's Signature:</h6>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2"></label>
+      </div>
     
-            <h2 style="color: blue;
-            font-style: italic;">MISSION</h2>
-            
-            <p><a class="btn btn-secondary" href="mission.html" >View details »</a>
-            
-          </p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            
-    
-            <h2 style="color: blue;
-            font-style: italic;">EVENTS</h2>
-           
-            <p><a class="btn btn-secondary" href="events.html">View details »</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-           
-            <h2 style="color: blue;
-            font-style: italic;">PLACEMENT TEAM</h2>
-           
-            <p><a class="btn btn-secondary" href="placement.html">View details »</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div>
-        
-        <div class="container">
-          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-              <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-              </a>
-              <span class="mb-3 mb-md-0 text-body-secondary">© 2020 Meghnad Saha Institute Of Technology All Rights Reserved.</span>
-            </div>
-        
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-              <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-            </ul>
-          </footer>
-        </div>
-  
-  
-    
-  
-    
-   
 
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-   
-  </body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
 </html>
